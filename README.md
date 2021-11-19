@@ -18,7 +18,7 @@ Once the ETL process had been successfully completed the data will be ready for 
 ## BEFORE YOUR BEGIN
 1.	Create a new repository for this project called **etl_analysis**. Do not add this homework to an existing repository.
 2.	Clone the new repository to your computer.
-3.	Inside your local git repository, create a directory for the **etl_analysis**. Use a folder name to correspond to the challenge: **etl_analysis**.
+3.	Inside your local git repository, create a directory for the 'etl_analysis'. Use a folder name to correspond to the challenge: **etl_analysis**.
 4.	Add your completed notebook files to this folder as well as your flask app.
 5.	Push the above changes to GitHub.
 6.	Be aware that the Jupyter Notebook you will be using, **pandas_etl.ipynb**, will contain a technical overview and specific insturction on how to accomplish the tasks below.  Description and directions here are meant to provide managerial level instruction.
