@@ -37,18 +37,18 @@ Once the ETL process had been successfully completed the data will be ready for 
 ## STEP 2 – TRANSFORM
 
 ### TRANSFORM AIR QUALITY DATA
-When completed, the transformed air quality data should have the following form:
-1.	Only  “State”, “County”, “Year”, and “Median AQI” columns should be utilized.
+When completed, the transformed air quality data will have the following form:
+1.	Keep only the  “State”, “County”, “Year”, and “Median AQI” columns.
 2.	Filter the data on year = 2021.
 3.	In order to conform later to SQL norms, convert all column titles to lower case form.  Replace any spaces in the column titles with underscores.
 4.	Use the index as an **“id”** column.
 
 ### TRANSFORM LISTINGS DATA
-When completed, the transformed real estate listings data should have the following form:
+When completed, the transformed real estate listings data will have the following form:
 1.	_Columns:_ **"month_date_yyyymm"**, **"county_name"**, **"total_listing_count"**, **"average_listing_price"**, **"median_listing_price", "active_listing_count", "median_days_on_market"**
 2.	Split County and State names into separate columns.
 3.	In order to conform later to SQL norms, convert all column titles to lower case form.  Replace any spaces in the column titles with underscores.
-4.	Using the provided state name and abbreviation table, assure that state name and county names are identical to those in the  air quality dataframe .  
+4.	Read the ``state_abbreviation.csv`` file into a dataframe, merge it with the listing dataframe, and reorganize and/or rename the columns to ensure the full state name is included in the listings dataframes as it is in the air quality dataframe.  
 5.	Transform index name to a column with the name of **“id”**
 
 
