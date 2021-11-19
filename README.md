@@ -5,16 +5,16 @@
 
 Have you ever wondered whether or not air quality of a given location is in any way associated with the value and marketability of you home?  The data derived from this project is designed to provide a data set by which to make such an analysis.
 
-The project, sponsored by Group 8, enables the analyst to extract air quality data provided by the Environmental Protection Agency (by way of the Kaggle site) and real estate data provided by RealEstate.com Economic Research.  The data is provided in the Resources section of the repo in the form of .csv files.   
+The project, sponsored by Group 8, enables the analyst to extract air quality data provided by the Environmental Protection Agency (by way of the Kaggle site) and real estate data provided by RealEstate.com Economic Research.  The data is provided in the Resources section of the repo: RDC_Inventory_Core_Metrics_Count.csv;  aqi_yearly_1980_to_2021.csv.   
 
-An additional .csv file is provided which provides U.S. State Name to State Abbreviation equivalents to assist in data transformation.
-Once the ETL process had been successfully completed the data will be ready for viewing, sorting and correlation analysis.
+An additional file, state_abbreviation.csv, is provided which provides U.S. State Name to State Abbreviation equivalents to assist in data transformation.
+Once the ETL process had been successfully completed the data will be ready for viewing, sorting, correlation or other analysis.
 
 
 **BEFORE YOUR BEGIN**
 1.	Create a new repository for this project called etl_analysis_challenge. Do not add this homework to an existing repository.
 2.	Clone the new repository to your computer.
-3.	Inside your local git repository, create a directory for the etl_analysis_challenge. Use a folder name to correspond to the challenge: etl_analysis_challenge
+3.	Inside your local git repository, create a directory for the etl_analysis. Use a folder name to correspond to the challenge: etl_analysis.
 4.	Add your completed notebook files to this folder as well as your flask app.
 5.	Push the above changes to GitHub.
 6.	Be aware that the Jupyter Notebook will contain a technical overview and specific insturction on how to accomplish the tasks below.  Description and directions here are meant to provide managerial level instruction.
