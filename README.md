@@ -1,4 +1,7 @@
 #ETL Project Group 8
+#Feipeng Yang
+#Jim Hurley
+#Matt Keeley
 
 
 ## INTRODUCTION
@@ -31,7 +34,7 @@ Once the ETL process had been successfully completed the data will be ready for 
 
 
 
-## STEP 2 – TRANFORM**
+## STEP 2 – TRANSFORM**
 
 ### TRANSFORM AIR QUALITY DATA
 When completed, the transformed air quality data should have the following form:
