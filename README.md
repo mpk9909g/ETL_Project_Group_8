@@ -48,7 +48,7 @@ When completed, the transformed real estate listings data will have the followin
 1.	_Columns:_ **"month_date_yyyymm"**, **"county_name"**, **"total_listing_count"**, **"average_listing_price"**, **"median_listing_price", "active_listing_count", "median_days_on_market"**
 2.	Split County and State names into separate columns.
 3.	In order to conform later to SQL norms, convert all column titles to lower case form.  Replace any spaces in the column titles with underscores.
-4.	Read the ``state_abbreviation.csv`` file into a dataframe, merge it with the listing dataframe, and reorganize and/or rename the columns to ensure the full state name is included in the listings dataframes (as it is in the air quality dataframe).  
+4.	Read the ``state_abbreviation.csv`` file into the notebook, merge it with the listing data, and reorganize and/or rename the columns to ensure the full state name is included in the listings dataframes (as it is in the air quality data).  
 5.	Transform index name to a column with the name of **“id”**
 
 
