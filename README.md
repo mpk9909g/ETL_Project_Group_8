@@ -56,10 +56,10 @@ When completed, the transformed real estate listings data will have the followin
 
 ### LOAD DATA INTO DATABASE
 1.	Create a connection in postgresSQL and initiate a database called ``realestate_db``
-2.	In postgresSQL create two tables: “listings” and **“air_quality”** and save the initializing querly as schema.sql
+2.	In postgresSQL create two tables: “listings” and **“air_quality”** and save the initializing querly as ``schema.sql``
 3.	Remember to establish the **“id” as the primary key in both tables**
 4.	Load the Air Quality dataframe into the **“air_quality"** database. 
 5.	Load the Listings dataframe into the **“listings”** database. 
-6.	In a file named **query.sql** join both tables together according to state and county identifiers.
+6.	In a file named ``query.sql`` join both tables together according to state and county identifiers.
 
 When completed you will have a unified table that provides air quality data for each real estate listing in the table.
