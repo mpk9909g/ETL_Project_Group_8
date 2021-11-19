@@ -1,7 +1,7 @@
 #ETL Project Group 8
-#Feipeng Yang
-#Jim Hurley
-#Matt Keeley
+Feipeng Yang
+Jim Hurley
+Matt Keeley
 
 
 ## INTRODUCTION
