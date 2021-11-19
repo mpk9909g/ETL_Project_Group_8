@@ -22,12 +22,12 @@ Once the ETL process had been successfully completed the data will be ready for 
 3.	Inside your local git repository, create a directory for the **etl_analysis**. Use a folder name to correspond to the challenge: **etl_analysis**.
 4.	Add your completed notebook files to this folder as well as your flask app.
 5.	Push the above changes to GitHub.
-6.	Be aware that the Jupyter Notebook you will be using, **pandas_etl.ipynb**, will contain a technical overview and specific insturction on how to accomplish the tasks below.  Description and directions here are meant to provide managerial level instruction.
+6.	Be aware that the Jupyter Notebook you will be using, ``pandas_etl.ipynb``, will contain a technical overview and specific insturction on how to accomplish the tasks below.  Description and directions here are meant to provide managerial level instruction.
 
 
 
 ## Step 1 - EXTRACT
-1.	A starter Jupyter Notebook, **pandas_etl.ipynb** has been provided for your reference.
+1.	A starter Jupyter Notebook, ``pandas_etl.ipynb`` has been provided for your reference.
 2.	Extract the data from the ``aqi_yearly_1980_to_2021.csv`` file
 3.	Extract the data from the ``RDC_Inventory_Core_Metrics_County.csv`` file
 4.	Read the data from the files into dataframes
@@ -48,7 +48,7 @@ When completed, the transformed real estate listings data will have the followin
 1.	_Columns:_ **"month_date_yyyymm"**, **"county_name"**, **"total_listing_count"**, **"average_listing_price"**, **"median_listing_price", "active_listing_count", "median_days_on_market"**
 2.	Split County and State names into separate columns.
 3.	In order to conform later to SQL norms, convert all column titles to lower case form.  Replace any spaces in the column titles with underscores.
-4.	Read the ``state_abbreviation.csv`` file into a dataframe, merge it with the listing dataframe, and reorganize and/or rename the columns to ensure the full state name is included in the listings dataframes as it is in the air quality dataframe.  
+4.	Read the ``state_abbreviation.csv`` file into a dataframe, merge it with the listing dataframe, and reorganize and/or rename the columns to ensure the full state name is included in the listings dataframes (as it is in the air quality dataframe).  
 5.	Transform index name to a column with the name of **“id”**
 
 
@@ -62,4 +62,4 @@ When completed, the transformed real estate listings data will have the followin
 5.	Load the Listings dataframe into the **“listings”** database. 
 6.	In a file named **query.sql** join both tables together according to state and county identifiers.
 
-When completed you should have a unified table that provides air quality data for each real estate listing in the table.
+When completed you will have a unified table that provides air quality data for each real estate listing in the table.
