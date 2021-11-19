@@ -56,7 +56,7 @@ When completed, the transformed real estate listings data should have the follow
 ## STEP 3 – LOAD
 
 ### LOAD DATA INTO DATABASE
-1.	Create a connection in postgresSQL and initiate a database called ``realestate_db
+1.	Create a connection in postgresSQL and initiate a database called ``realestate_db``
 2.	In postgresSQL create two tables: “listings” and **“air_quality”** and save the initializing querly as schema.sql
 3.	Remember to establish the **“id” as the primary key in both tables**
 4.	Load the Air Quality dataframe into the **“air_quality"** database. 
