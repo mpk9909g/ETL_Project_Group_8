@@ -1,7 +1,7 @@
 #ETL Project Group 8
 
 
-**INTRODUCTION**
+## INTRODUCTION
 
 Have you ever wondered whether or not air quality of a given location is in any way associated with the value and marketability of you home?  The data derived from this project is designed to provide a data set by which to make such an analysis.
 
@@ -12,7 +12,7 @@ Once the ETL process had been successfully completed the data will be ready for 
 
 
 
-**BEFORE YOUR BEGIN**
+## BEFORE YOUR BEGIN
 1.	Create a new repository for this project called **etl_analysis**. Do not add this homework to an existing repository.
 2.	Clone the new repository to your computer.
 3.	Inside your local git repository, create a directory for the **etl_analysis**. Use a folder name to correspond to the challenge: **etl_analysis**.
@@ -22,7 +22,7 @@ Once the ETL process had been successfully completed the data will be ready for 
 
 
 
-**Step 1 - EXTRACT**
+## Step 1 - EXTRACT
 1.	A starter Jupyter Notebook, **pandas_etl.ipynb** has been provided for your reference.
 2.	Extract the two files for transformation from .csv files: 
         •	**aqi_yearly_1980_to_2021.csv**  
@@ -31,16 +31,16 @@ Once the ETL process had been successfully completed the data will be ready for 
 
 
 
-**STEP 2 – TRANFORM**
+## STEP 2 – TRANFORM**
 
-TRANSFORM AIR QUALITY DATA
+### TRANSFORM AIR QUALITY DATA
 When completed, the transformed air quality data should have the following form:
 1.	Only  “State”, “County”, “Year”, and “Median AQI” columns should be utilized.
 2.	Only data from 2021 should be used.
 3.	In order to conform later to SQL norms, all column titles will be transformed into lower case form.
 4.	Use the index as an **“id”** column.
 
-TRANSFORM LISTINGS DATA
+### TRANSFORM LISTINGS DATA
 When completed, the transformed real estate listings data should have the following form:
 1.	_Columns:_ **"month_date_yyyymm"**, **"county_name"**, **"total_listing_count"**, **"average_listing_price"**, **"median_listing_price", "active_listing_count", "median_days_on_market"**
 2.	Split County and State names into separate columns.
@@ -50,10 +50,9 @@ When completed, the transformed real estate listings data should have the follow
 6.	Transform index name to a column with the name of **“id”**
 
 
+## STEP 3 – LOAD
 
-**STEP 3 – LOAD**
-
-LOAD DATA INTO DATABASE
+### LOAD DATA INTO DATABASE
 1.	Create a connection in postgresSQL and initiate a database called **“realestate_db”**
 2.	In postgresSQL create two tables: “listings” and **“air_quality”** and save the initializing querly as schema.sql
 3.	Remember to establish the **“id” as the primary key in both tables**
